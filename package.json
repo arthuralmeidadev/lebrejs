@@ -16,6 +16,7 @@
   },
   "version": "1.0.6",
   "main": "src/index.js",
+  "keywords": ["cache", "server", "api", "client", "database", "data", "memory"],
   "types": "src/lebre.d.ts",
   "license": "MIT",
   "type": "module",
