@@ -1,0 +1,21 @@
+{
+  "name": "lebre",
+  "publishConfig": {
+    "access": "public",
+    "tag": "lebre"
+  },
+  "private": false,
+  "publisher": "arthuralmeidadev",
+  "author": {
+    "name": "Arthur Almeida",
+    "url": "https://github.com/arthuralmeidadev"
+  },
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
