@@ -14,9 +14,9 @@
     "name": "Arthur Almeida",
     "url": "https://github.com/arthuralmeidadev"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "src/index.js",
-  "types": "src/index.d.ts",
+  "types": "src/lebre.d.ts",
   "license": "MIT",
   "type": "module",
   "scripts": {

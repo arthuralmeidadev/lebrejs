@@ -6,7 +6,7 @@ declare module "lebre" {
         port?: number;
     }
 
-    export default class Lebre {
+    export class Lebre {
         public options: ConnectionOptions;
 
         /**
