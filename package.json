@@ -4,6 +4,10 @@
     "access": "public",
     "tag": "lebre"
   },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/arthuralmeidadev/lebrejs"
+  },
   "private": false,
   "publisher": "arthuralmeidadev",
   "author": {
