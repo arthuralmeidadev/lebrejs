@@ -4,7 +4,7 @@ import crypto from "crypto";
 /**
  * @public
  */
-class Lebre {
+export class Lebre {
   /**
    * @private @type net.Socket
    */
@@ -304,8 +304,4 @@ class Lebre {
     const finalData = Buffer.concat([messageLength, encryptedMessage])
     this.socket.write(finalData);
   }
-}
-
-module.exports = {
-  Lebre
 }
