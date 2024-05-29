@@ -33,8 +33,12 @@ npm manifest:
       "access": "public",
       "tag": "lebre"
     },
+    "repository": {
+      "type": "github",
+      "url": "https://github.com/arthuralmeidadev/lebrejs"
+    },
     "private": false,
-    "publisher": "Almeida Almeida",
+    "publisher": "arthuralmeidadev",
     "author": {
       "name": "Arthur Almeida",
       "url": "https://github.com/arthuralmeidadev"

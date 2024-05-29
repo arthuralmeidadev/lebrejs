@@ -306,17 +306,6 @@ class Lebre {
   }
 }
 
-const client = new Lebre({
-  user: "root",
-  password: "Mgt00-01",
-});
-await client.connect();
-await client.set("test", "Hello World!");
-await client.set("user", "Peter");
-const user = await client.get("user");
-const test = await client.get("test");
-console.log({
-  user,
-  test,
-})
-await client.disconnect();
+module.exports = {
+  Lebre
+}
