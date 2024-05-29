@@ -1,5 +1,3 @@
-import net from "net";
-
 declare module "lebre" {
     export type ConnectionOptions = {
         host?: string;
